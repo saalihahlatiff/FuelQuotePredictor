@@ -14,4 +14,5 @@ It contains the following components
 - Fuel Quote History
 
 This is created as part of COSC 4353 Project
+
 Group Members: Saalihah Latiff, Jaelyn Rogers, Kijana Thomas, Talha Iftikhar
