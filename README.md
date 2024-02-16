@@ -5,7 +5,7 @@ This project is used to predict the rate of the fuel based on the following crit
 - Client history (existing customer with previous purchase or new)
 - Gallons requested
 - Company profit margin (%)
-- 
+  
 It contains the following components 
 - Login (Allow Client to register if not a client yet)
 - Client Registration (Initially only username and Password)
