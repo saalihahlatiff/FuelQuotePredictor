@@ -5,7 +5,11 @@ body {
 
 .profile,
 .account {
-  padding: 5%;
+  padding: 2.5%;
+}
+
+.account .container {
+  padding: 50px;
 }
 
 .container {
