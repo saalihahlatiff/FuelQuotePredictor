@@ -4,7 +4,8 @@ body {
 }
 
 .profile,
-.account {
+.account,
+.quote {
   padding: 2.5%;
 }
 
@@ -76,4 +77,13 @@ a {
 .menu-options button {
   max-width: none;
   height: 80px;
+}
+
+.dropdown select {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #fff;
 }
