@@ -1,7 +1,11 @@
 body {
+  background-color: #8a9b68;
   padding: 10%;
+}
 
-  background-color: #8A9B68;
+.profile,
+.account {
+  padding: 5%;
 }
 
 .container {
@@ -10,7 +14,7 @@ body {
   padding: 20px;
 
   background-color: beige;
-  filter: drop-shadow(10px 10px 30px #424243)
+  filter: drop-shadow(10px 10px 30px #424243);
 }
 
 input,
@@ -20,7 +24,6 @@ button {
   margin: 10px auto;
   width: 80%;
   padding: 10px;
-
 }
 
 button {
@@ -29,19 +32,21 @@ button {
   border: none;
   cursor: pointer;
   border-radius: 10px;
+  max-width: fit-content;
 }
 
 button:hover {
   background-color: #2d0258;
 }
 
-h1, p{
+h1,
+p {
   font-family: sans-serif;
   text-align: center;
 }
 
 label {
-  text-align:left;
+  text-align: left;
   padding-left: 5%;
   padding-top: 5%;
 }
@@ -54,12 +59,17 @@ input {
   max-width: fit-content;
 }
 
-td, tr{
+td,
+tr {
   background-color: #e0e3ce;
   padding: 5% 2%;
 }
 
+a {
+  text-decoration: none;
+}
 
-
-
-
+.menu-options button {
+  max-width: none;
+  height: 80px;
+}
