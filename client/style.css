@@ -1,8 +1,16 @@
+body {
+  padding: 10%;
+
+  background-color: #8A9B68;
+}
+
 .container {
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;
-  text-align: center;
+
+  background-color: beige;
+  filter: drop-shadow(10px 10px 30px #424243)
 }
 
 input,
@@ -12,15 +20,46 @@ button {
   margin: 10px auto;
   width: 80%;
   padding: 10px;
+
 }
 
 button {
-  background-color: #007bff;
+  background-color: #364118;
   color: #fff;
   border: none;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #2d0258;
 }
+
+h1, p{
+  font-family: sans-serif;
+  text-align: center;
+}
+
+label {
+  text-align:left;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+
+input {
+  margin-bottom: 5%;
+}
+
+#graph {
+  max-width: fit-content;
+}
+
+td, tr{
+  background-color: #e0e3ce;
+  padding: 5% 2%;
+}
+
+
+
+
+
