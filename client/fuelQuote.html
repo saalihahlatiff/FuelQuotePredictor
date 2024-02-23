@@ -1,54 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fuel Quote</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body class="quote">
+</head>
+<body class="quote">
     <div class="container">
-      <h1>Fuel Quote Form</h1>
-      <form id="fuelQuoteForm">
-        <label for="gallonsRequested">Gallons Requested:</label>
-        <input
-          type="number"
-          id="gallonsRequested"
-          placeholder="Enter Gallons"
-          required
-        />
+        <h1>Fuel Quote Form</h1>
+        <form id="fuelQuoteForm">
+            <label for="gallonsRequested">Gallons Requested:</label>
+            <input type="number"
+                   id="gallonsRequested"
+                   placeholder="Enter Gallons"
+                   required />
 
-        <label for="deliveryAddress">Delivery Address:</label>
-        <input
-          type="text"
-          id="deliveryAddress"
-          placeholder="Address"
-          readonly
-        />
+            <label for="deliveryAddress">Delivery Address:</label>
+            <input type="text"
+                   id="deliveryAddress"
+                   placeholder="Address"
+                   readonly />
 
-        <label for="deliveryDate">Delivery Date:</label>
-        <input type="date" id="deliveryDate" required />
+            <label for="deliveryDate">Delivery Date:</label>
+            <input type="date" id="deliveryDate" required />
 
-        <label for="suggestedPrice">Suggested Price / Gallon:</label>
-        <input
-          type="number"
-          id="suggestedPrice"
-          placeholder="Suggested Price"
-          readonly
-        />
+            <label for="suggestedPrice">Suggested Price / Gallon:</label>
+            <input type="number"
+                   id="suggestedPrice"
+                   placeholder="Suggested Price"
+                   readonly />
 
-        <label for="totalAmountDue">Total Amount Due:</label>
-        <input
-          type="number"
-          id="totalAmountDue"
-          placeholder="Total Amount Due"
-          readonly
-        />
-
-        <button type="button" onclick="calculateTotal()">
-          Calculate Total
-        </button>
-      </form>
-    </div>
-  </body>
+            <label for="totalAmountDue">Total Amount Due:</label>
+            <input type="number"
+                   id="totalAmountDue"
+                   placeholder="Total Amount Due"
+                   readonly />
+            <div class="side-by-side">
+                <button type="button" onclick="calculateTotal()">
+                    Calculate Total
+                </button>
+            </div>
+        </form>
+</body>
 </html>

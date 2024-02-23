@@ -1,89 +1,116 @@
 body {
-  background-color: #8a9b68;
-  padding: 10%;
+    background-color: #8a9b68;
+    padding: 10%;
 }
 
 .profile,
 .account,
 .quote {
-  padding: 2.5%;
+    padding: 2.5%;
 }
 
-.account .container {
-  padding: 50px;
-}
+    .account .container {
+        padding: 50px;
+    }
 
 .container {
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 20px;
-
-  background-color: beige;
-  filter: drop-shadow(10px 10px 30px #424243);
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: beige;
+    filter: drop-shadow(10px 10px 30px #424243);
+    border-radius: 10px;
 }
 
 input,
 select,
 button {
-  display: block;
-  margin: 10px auto;
-  width: 80%;
-  padding: 10px;
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    padding: 10px;
 }
 
 button {
-  background-color: #364118;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  border-radius: 10px;
-  max-width: fit-content;
+    background-color: #364118;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.big-button { /* All big buttons on account page */
+    display: inline-block;
+    margin: 5px;
+    width: 200px;
+    height: 40px;
+}
+
+.small-button { /* All small buttons across all pages */
+    width: 125px;
+    height: 40px;
 }
 
 button:hover {
-  background-color: #2d0258;
+    background-color: #2d0258;
 }
 
 h1,
 p {
-  font-family: sans-serif;
-  text-align: center;
+    font-family: sans-serif;
+    text-align: center;
 }
 
 label {
-  text-align: left;
-  padding-left: 5%;
-  padding-top: 5%;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 5%;
 }
 
 input {
-  margin-bottom: 5%;
+    margin-bottom: 5%;
 }
 
 #graph {
-  max-width: fit-content;
+    max-width: fit-content;
 }
 
 td,
 tr {
-  background-color: #e0e3ce;
-  padding: 5% 2%;
+    background-color: #e0e3ce;
+    padding: 5% 2%;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .menu-options button {
-  max-width: none;
-  height: 80px;
+    max-width: none;
+    height: 80px;
 }
 
 .dropdown select {
-  padding: 10px;
-  border: 1px solid gray;
-  border-radius: 5px;
-  font-size: 15px;
-  cursor: pointer;
-  background-color: #fff;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.side-by-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .side-by-side button {
+        margin: 0 10px;
+        width: 125px;
+        height: 40px;
+    }
+
+.dropdown select {
+    width: 345px; /* dropdown width on client management pages */
 }
