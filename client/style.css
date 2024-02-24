@@ -1,6 +1,7 @@
 body {
     background-color: #8a9b68;
     padding: 10%;
+    overflow-x: hidden;
 }
 
 .profile,
@@ -113,4 +114,10 @@ a {
 
 .dropdown select {
     width: 345px; /* dropdown width on client management pages */
+}
+.gif-container {
+    position: absolute;
+    top: 60%;
+    left: -100px;
+    user-select: none;
 }
