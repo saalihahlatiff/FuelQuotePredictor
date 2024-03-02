@@ -115,9 +115,33 @@ a {
 .dropdown select {
     width: 345px; /* dropdown width on client management pages */
 }
+
 .gif-container {
     position: absolute;
     top: 60%;
     left: -100px;
     user-select: none;
+}
+
+input[type="text"],
+input[type="password"] {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+    input[type="text"].invalid-input:focus,
+    input[type="password"].invalid-input:focus {
+        border-color: red;
+    }
+
+    input[type="text"].invalid-input:not(:focus),
+    input[type="password"].invalid-input:not(:focus) {
+        border-color: red;
+    }
+
+.invalid-input {
+    border-color: red;
+}
+#states.invalid-input {
+    border-color: red;
 }
