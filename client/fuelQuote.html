@@ -15,33 +15,41 @@
             <input type="number"
                    id="gallonsRequested"
                    placeholder="Enter Gallons"
+                   min="1"
+                   max="45"
                    required />
 
             <label for="deliveryAddress">Delivery Address:</label>
             <input type="text"
                    id="deliveryAddress"
                    placeholder="Address"
-                   readonly />
+                   />
 
             <label for="deliveryDate">Delivery Date:</label>
-            <input type="date" id="deliveryDate" required />
+            <!-- change daily -->
+            <input type="date" id="deliveryDate" min="2024-03-04" required />
 
             <label for="suggestedPrice">Suggested Price / Gallon:</label>
             <input type="number"
                    id="suggestedPrice"
                    placeholder="Suggested Price"
-                   readonly />
+                   min="1"
+                   />
 
             <label for="totalAmountDue">Total Amount Due:</label>
             <input type="number"
                    id="totalAmountDue"
                    placeholder="Total Amount Due"
-                   readonly />
+                   min="1"
+                   />
+
             <div class="side-by-side">
                 <button type="button" onclick="calculateTotal()">
                     Calculate Total
                 </button>
             </div>
         </form>
-</body>
+        </div>
+        <script src="fuelQuote.js"></script>
+    </body>
 </html>
