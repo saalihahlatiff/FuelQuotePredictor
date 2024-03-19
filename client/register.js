@@ -1,4 +1,4 @@
-function register() {
+function register(window) {
     var usernameInput = document.getElementById('regUsername');
     var passwordInput = document.getElementById('regPassword');
 
@@ -6,20 +6,24 @@ function register() {
     var password = passwordInput.value;
 
     if (username.trim() === '') {
-        alert('Username cannot be blank.');
+        window.alert('Username cannot be blank.');
         usernameInput.classList.add('invalid-input');
         return;
-    } else {
+    }
+    else {
         usernameInput.classList.remove('invalid-input');
     }
 
     if (password.length < 8) {
-        alert('Password must be at least 8 characters long.');
+        window.alert('Password must be at least 8 characters long.');
         passwordInput.classList.add('invalid-input');
         return;
-    } else {
+    }
+    else {
         passwordInput.classList.remove('invalid-input');
     }
 
     window.location.href = '../index.html';
 }
+
+module.exports = register;

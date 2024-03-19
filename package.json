@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nyc": "^15.1.0",
+    "vitest": "^1.4.0"
+  },
+  "dependencies": {
+    "jsdom": "^24.0.0"
+  },
+  "name": "fuelquotepredictorone",
+  "description": "This project is used to predict the rate of the fuel based on the following criteria:",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
