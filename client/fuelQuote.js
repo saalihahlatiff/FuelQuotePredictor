@@ -54,4 +54,7 @@ function calculateTotal() {
     }
 
     window.location.href = '../index.html';
+    return true;
 }
+
+module.exports = calculateTotal;

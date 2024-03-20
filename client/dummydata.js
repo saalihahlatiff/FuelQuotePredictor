@@ -51,3 +51,6 @@ function populateQuoteHistoryTable() {
 
 // Call the function to populate the table on page load
 populateQuoteHistoryTable();
+
+module.exports = populateQuoteHistoryTable();
+

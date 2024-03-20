@@ -25,10 +25,23 @@ describe('register function', () => {
         expect(window.alert).toHaveBeenCalledWith('Password must be at least 8 characters long.');
     });
 
+
     it('should redirect when inputs are valid', () => {
+        const dom = new JSDOM(`<!DOCTYPE html><p>Hello world</p>`, { url: "http://localhost/index.html" });
+        global.window = dom.window;
+        global.document = window.document;
+
+        document.body.innerHTML = `
+        <input id="regUsername" />
+        <input id="regPassword" />
+    `;
+
         document.getElementById('regUsername').value = 'testUser';
         document.getElementById('regPassword').value = '12345678';
+
         register(window);
-        expect(window.location.href).toBe('../index.html');
+
+        expect(window.location.href).toBe('http://localhost/index.html');
     });
+
 });

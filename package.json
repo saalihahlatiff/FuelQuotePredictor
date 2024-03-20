@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "jest --verbose"
+    "test": "jest"
   },
   "devDependencies": {
     "jest": "^29.7.0",
@@ -10,7 +10,7 @@
   "dependencies": {
     "jsdom": "^24.0.0"
   },
-  "name": "fuelquotepredictorone",
+  "name": "fuelquotepredictortwo",
   "description": "This project is used to predict the rate of the fuel based on the following criteria:",
   "version": "1.0.0",
   "main": "index.js",
