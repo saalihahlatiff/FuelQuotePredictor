@@ -119,7 +119,7 @@ a {
 .gif-container {
     position: absolute;
     top: 60%;
-    left: -100px;
+    left: -175px;
     user-select: none;
 }
 
@@ -142,6 +142,7 @@ input[type="password"] {
 .invalid-input {
     border-color: red;
 }
+
 #states.invalid-input {
     border-color: red;
 }

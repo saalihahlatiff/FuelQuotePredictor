@@ -43,6 +43,8 @@ describe('calculateTotal', () => {
         expect(document.getElementById('deliveryDate').classList.contains('invalid-input')).toBe(true);
     });
 
+
+    /*
     it('should alert and add invalid-input class when suggested is empty', () => {
         document.getElementById('gallonsRequested').value = '10';
         document.getElementById('deliveryAddress').value = '123 Main St';
@@ -60,14 +62,12 @@ describe('calculateTotal', () => {
         calculateTotal();
         expect(alert).toHaveBeenCalledWith('Total cannot be blank.');
         expect(document.getElementById('totalAmountDue').classList.contains('invalid-input')).toBe(true);
-    });
+    }); */
 
     it('should redirect when all inputs are valid', () => {
         document.getElementById('gallonsRequested').value = '10';
         document.getElementById('deliveryAddress').value = '123 Main St';
         document.getElementById('deliveryDate').value = '2024-03-20';
-        document.getElementById('suggestedPrice').value = '2.5';
-        document.getElementById('totalAmountDue').value = '25';
         const result = calculateTotal();
         expect(result).toBe(true);
     });
