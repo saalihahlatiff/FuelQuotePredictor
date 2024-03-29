@@ -56,3 +56,14 @@ function login() {
 
     window.location.href = 'client/profile.html';
 }
+
+// will be completed on final assignment
+class PricingModule {
+    constructor() {}
+
+    calculateQuotePrice(clientProfile, fuelQuote) {}
+
+    getCurrentMarketRate() {}
+}
+
+
