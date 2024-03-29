@@ -45,7 +45,6 @@ function login() {
     return true;
 }
 
-<<<<<<< HEAD
 // will be completed on final assignment
 class PricingModule {
     constructor() {}
@@ -56,7 +55,3 @@ class PricingModule {
 }
 
 
-=======
-
-module.exports = login;
->>>>>>> e789c5c947dded976ff9cbd52ce2bd5b9f9a4267
